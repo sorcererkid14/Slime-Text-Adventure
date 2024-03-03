@@ -1,0 +1,24 @@
+body{
+  background-image: url('https://wallpapercave.com/wp/10sDgAY.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#button{
+  margin-top: 2%;
+  width:50%; 
+}
+
+h2{
+  color: whitesmoke;
+  text-align: center;
+  font-family: Courier, monospace;
+}
+
+p{
+  color: whitesmoke;
+  text-align: center;
+  font-family: Courier, monospace;
+  font-size: 200%;
+}

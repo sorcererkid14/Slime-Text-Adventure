@@ -1,0 +1,130 @@
+body{
+  background-image: url('https://wallpapercave.com/wp/10sDgAY.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#gridBox{
+  padding: 0;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-bottom: 2%;
+ display: grid;
+ height: 620px;
+ width:65%;
+ border:5px solid rgb(98, 147, 252);
+ grid-template-rows: auto 15%;
+ border-radius: 7px;
+}
+#textBox {
+  
+  color:white;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: Courier, monospace;
+  font-size: 120%;
+  overflow-y: scroll;
+  background-image: url ('/images/textBox.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border: inherit;
+  
+}
+#middle{
+  padding-left: 0px;
+  font-size: 170%;
+  text-align: center;
+}
+#cli {
+  background-color: rgb(48, 46, 46);
+  font-family: monospace;
+  color:white;
+ font-size: 130%;
+ border-top: inherit;
+ padding:10px;
+ overflow-y: scroll;
+}
+
+#inventory{
+  font-size: 115%;
+  color:white;
+  text-align:center;
+  font-family: monospace;
+  position: absolute;
+  background-image: url('https://wallpaperaccess.com/full/1092563.jpg');
+  top: 6%;
+  height:25%;
+  width:18%;
+  margin-left:70%;
+  border: inherit;
+  overflow-y: scroll;
+  z-index: 0;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#skillBox{
+  font-size: 115%;
+  color:white;
+  text-align:center;
+  font-family: monospace;
+  position: absolute;
+  background-image: url('https://wallpaperaccess.com/full/1092563.jpg');
+  height:25%;
+  width:18%;
+  top: 35%;
+  margin-left:70%;
+  border: inherit;
+  float: right;
+  overflow-y: scroll;
+  z-index: 0;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#rules{
+ font-size: 60%;
+ text-align: left;
+}
+
+#mapBox{
+  font-size: 140%;
+  color:white;
+  text-align:center;
+  font-family: monospace;
+  position: absolute;
+  background-image: url('https://wallpaperaccess.com/full/1092563.jpg');
+  height:25%;
+  width:18%;
+  top: 64%;
+  margin-left:70%;
+  border: inherit;
+  float: right;
+  z-index: 0;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#startPara{
+  padding-bottom: 5px;
+  border-bottom: 2px dashed white;
+}
+
+.header{
+  font-size: 120%;
+}
+
+#button{
+  position: relative;
+  margin-left: 78%;
+  z-index: 0;
+  
+}
+
+#button2{
+  position: relative;
+  margin-left: 86%;
+  bottom: 20px;
+  z-index: 0;
+}

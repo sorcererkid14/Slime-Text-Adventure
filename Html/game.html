@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Slime Quests</title>
+  <link href="/Css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="initGame()">
+
+  <div id="gridBox">
+
+    <div id="textBox">
+      <div id="middle"><u><strong><i>SLIME QUESTS</i></strong></u>
+        <br>
+        <div id="rules">
+          <div id="startPara">
+            <u><strong>RULES OF THE GAME</strong></u>: THERE IS AN INVENTORY BOX, A SKILL BOX AND A MAP BOX IN THE
+            RIGHT. THERE YOU CAN SEE THE ITEMS IN YOUR POSSESSTION. THE SKILLS YOU CAN USE AND THE MAP OF THE WHOLE GAME
+            WITH YOUR LOCATION. YOU CAN USE MOVEMENTS SUCH AS 'NORTH', 'EAST', 'SOUTH', AND 'WEST' IF THEY ARE NOT
+            RESTRICTED. YOU CAN ALSO USE OTHER COMMANDS AS WELL, BUT IF THEY ARE NOT VALID OR NOT RECOGNISED BY THE
+            PROGRAMME YOU WILL HAVE TO THINK UP OF AN ALTERNATIVE. INPUT YOUR COMMANDS IN THE GREY BOX BELOW. <br>
+            HERE ARE SOME COMMANDS THAT MIGHT COME IN HANDY
+            <ul>
+              <li>NORTH</li>
+              <li>EAST</li>
+              <li>SOUTH</li>
+              <li>WEST</li>
+              <li>N</li>
+              <li>E</li>
+              <li>S</li>
+              <li>W</li>
+              <li>GET</li>
+              <li>USE</li>
+              <li>EAT</li>
+              <li>YES</li>
+              <li>NO</li>
+            </ul>
+            THERE ARE OTHER COMMANDS AS WELL IN THE GAME THAT ARE NOT LISTED HERE. PLEASE REMEMBER TO USE A HYPHEN
+            BETWEEN THE WORDS. EG: GET MAGIC-STONES.
+
+            <br><strong>THIS IS THE BEGINNING OF A NEW ADVENTURE! PLEASE ENJOY!</strong>
+          </div>
+          <br>
+          <br>
+
+          YOU ARE NOW A SLIME! YOU WERE FORMERLY A HUMAN WHO WAS STABBED TO DEATH IN THE MIDDLE OF A STREET. FORTUNATELY
+          ENOUGH YOUR FRIEND BESIDE YOU IS ALRIGHT AND YOU ASK HIM TO WIPE OUT YOUR COMPUTER. YOU HAVE NOW REINCARNATED
+          IN ANOTHER WORLD.
+
+        </div>
+      </div>
+    </div>
+    <div id="inventory">
+      <div class="header">INVENTORY
+        <div id="contentOne"></div>
+      </div>
+    </div>
+    <div id="mapBox">
+      <img src="images/map5.png" width="200px">
+    </div>
+    <div id="skillBox">
+      <div class="header">Skills
+        <div id="contentTwo"></div>
+      </div>
+    </div>
+    <div id="cli" contenteditable="true" onkeyup="checkInput(event)"></div>
+
+  </div>
+
+  <div id="button">
+    <form>
+      <input type="button" value="RESTART" onclick="restart()">
+    </form>
+  </div>
+  <div id="button2">
+    <form>
+      <input type="button" value="EXIT" onclick="exit()">
+    </form>
+  </div>
+
+  <script src="/Js/script.js">
+  </script>
+  <script src="/Js/movements.js">
+  </script>
+  <script src="/Js/rooms.js">
+  </script>
+</body>
+
+</html>

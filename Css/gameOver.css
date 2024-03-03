@@ -1,0 +1,13 @@
+body{
+  background-image: url('https://media.istockphoto.com/videos/glitch-text-animation-old-gaming-console-style-rendering-background-video-id962478470?s=640x640');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#link{
+  margin-top: 3%;
+  font-size: 150%;
+  font-family: monospace;
+  text-align: center;
+}
